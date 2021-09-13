@@ -1,0 +1,53 @@
+2021-09-13 20:53:50.553  INFO 16652 --- [           main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.2.5
+	Build:          1222
+	Build time:     11.04.2021 08:07:27 UTC
+	Branch          master
+	Commit:         7b914f2
+	Commit time:    09.04.2021 17:14:27 UTC
+	JVM:            16.0.1
+	Lavaplayer      1.3.76
+
+2021-09-13 20:53:50.653  INFO 16652 --- [           main] lavalink.server.Launcher                 : Starting Launcher on CHONKER with PID 16652 (C:\Users\Ben\PycharmProjects\MusicBot_v2\JAVA\jdk-13.0.2\bin\Lavalink.jar started by Ben in C:\Users\Ben\PycharmProjects\MusicBot_v2)
+2021-09-13 20:53:50.654  INFO 16652 --- [           main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-09-13 20:53:50.781  WARN 16652 --- [kground-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-13 20:53:51.907  WARN 16652 --- [           main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-09-13 20:53:51.941  INFO 16652 --- [           main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-09-13 20:53:51.941  INFO 16652 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1237 ms
+2021-09-13 20:53:52.315  WARN 16652 --- [           main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-09-13 20:53:52.588  INFO 16652 --- [           main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-09-13 20:53:52.866  INFO 16652 --- [           main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-09-13 20:53:52.866  WARN 16652 --- [           main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-09-13 20:53:53.114  INFO 16652 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-13 20:53:53.436  INFO 16652 --- [           main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-09-13 20:53:53.448  INFO 16652 --- [           main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-09-13 20:53:53.530  INFO 16652 --- [           main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-09-13 20:53:53.534  INFO 16652 --- [           main] lavalink.server.Launcher                 : Started Launcher in 3.489 seconds (JVM running for 3.966)
+2021-09-13 20:53:53.536  INFO 16652 --- [           main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-09-13 20:53:53.871  INFO 16652 --- [  XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-13 20:53:53.872  INFO 16652 --- [  XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-13 20:53:53.877  INFO 16652 --- [  XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-09-13 20:53:53.899  INFO 16652 --- [  XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:64277
+2021-09-13 20:53:53.959  INFO 16652 --- [  XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:64277
+2021-09-13 20:54:08.854  INFO 16652 --- [  XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:This is a test"
+2021-09-13 20:54:09.348  INFO 16652 --- [   XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "voiceUpdate", "guildId": "730859265249509386", "sessionId": "fd16dc21931c8cb05b0155fec7d1c558", "event": {"token": "af245d8727e8b631", "guild_id": "730859265249509386", "endpoint": "eu-central476.discord.media:443"}}
+2021-09-13 20:54:09.989  INFO 16652 --- [ader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: This is a test
+2021-09-13 20:54:12.879  INFO 16652 --- [   XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "730859265249509386", "track": "QAAAmgIAMEFybWluIHZhbiBCdXVyZW4gLSBUaGlzIElzIEEgVGVzdCAoRXh0ZW5kZWQgTWl4KQAQQXJtaW4gdmFuIEJ1dXJlbgAAAAAABhKwAAtmSXJySFVhWHBBRQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWZJcnJIVWFYcEFFAAd5b3V0dWJlAAAAAAAAAAA=", "noReplace": false, "startTime": "0"}
+2021-09-13 20:55:50.640  INFO 16652 --- [   XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "730859265249509386"}
+2021-09-13 20:56:06.179  INFO 16652 --- [  XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:This is a test arkham knights remix"
+2021-09-13 20:56:06.850  INFO 16652 --- [ader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: This is a test arkham knights remix
+2021-09-13 20:56:10.433  INFO 16652 --- [   XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "730859265249509386", "track": "QAAAwwIAWUFybWluIHZhbiBCdXVyZW4gLSBUaGlzIElzIEEgVGVzdCAoQXJraGFtIEtuaWdodHMgUmVtaXgpIFtMaXZlIGF0IFRoZSBCZXN0IE9mIEFybWluIE9ubHldABBBcm1pbiB2YW4gQnV1cmVuAAAAAAAE5egAC2V4YVhNRzJ1bXBFAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ZXhhWE1HMnVtcEUAB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-09-13 20:59:30.996  INFO 16652 --- [   XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "730859265249509386"}
+2021-09-13 20:59:43.292  INFO 16652 --- [  XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Sorry for party rocking"
+2021-09-13 20:59:44.203  INFO 16652 --- [ader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Sorry for party rocking
+2021-09-13 20:59:49.233  INFO 16652 --- [   XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "play", "guildId": "730859265249509386", "track": "QAAAhAIAIUxNRkFPIC0gIlNvcnJ5IEZvciBQYXJ0eSBSb2NraW5nIgAJZGFyaWJraW5nAAAAAAADIMgAC05nX3Q1RDh0VnZNAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9TmdfdDVEOHRWdk0AB3lvdXR1YmUAAAAAAAAAAA==", "noReplace": false, "startTime": "0"}
+2021-09-13 21:09:04.225  INFO 16652 --- [   XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "stop", "guildId": "730859265249509386"}
+2021-09-13 21:09:04.226  INFO 16652 --- [   XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op": "destroy", "guildId": "730859265249509386"}
