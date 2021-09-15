@@ -1,0 +1,3 @@
+language = "bash"
+run = "bash run.sh"
+onBoot="java -jar JAVA/jdk-13.0.2/bin/Lavalink.jar"

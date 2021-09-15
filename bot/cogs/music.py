@@ -120,14 +120,12 @@ class Queue:
     def upcoming(self):
         if not self._queue:
             raise QueueIsEmpty
-
         return self._queue[self.position + 1:]
 
     @property
     def history(self):
         if not self._queue:
             raise QueueIsEmpty
-
         return self._queue[:self.position]
 
     @property
@@ -140,9 +138,7 @@ class Queue:
     def get_next_track(self):
         if not self._queue:
             raise QueueIsEmpty
-
         self.position += 1
-
         if self.position < 0:
             return None
         elif self.position > len(self._queue) - 1:
@@ -150,7 +146,6 @@ class Queue:
                 self.position = 0
             else:
                 return None
-
         return self._queue[self.position]
 
     def shuffle(self):
@@ -436,6 +431,7 @@ class Music(commands.Cog, wavelink.WavelinkMixin):
     @commands.command(name="repeat")
     async def repeat_command(self, ctx, mode: str):
         if mode not in ("none", "1", "all"):
+            ctx.send("Use `none`, `1` or `all`")
             raise InvalidRepeatMode
 
         player = self.get_player(ctx)
